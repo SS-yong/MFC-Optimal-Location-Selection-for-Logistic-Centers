@@ -4,9 +4,16 @@
 - Language : Python
 - Technologies : Jupyter notebook, Jupyter lab, Orange3, QGIS, Excel
 - Framework : Tensorflow, Keras, Pytorch, Matplotlib, folium, pycaret(AutoML)
-- Key Method : Consensus Clustering, AHP Method
+- Key Method : Consensus Clustering, AHP, KaKao API
 
 ## Abstract
+소비자의 유통업체와 소비자의 연계에서 새로운 부가가치를 창출할 수 있는 기업의 경쟁요소로 물류센터의 역할이 변화하였다. <br>
+<br>
+본 연구는 현재의 배송 속도가 기업의 경쟁력으로 부각되고 있는 상황에서 도시물류센터 입지선정에 영향을 미칠 수 있는 변수를 추출하고 데이터 마이닝 기법을 통해 도시물류센터 입지선정의 가이드라인을 제시하였다는 점에서 의미가 있다. 본 분석은 향후 서울시의 주유소들이 도시물류센터에 진입할 것인지를 연구하였다. 주유소와 소비자, 유통업체의 상생은 기대되는 효과라고 할 수 있다. 기존의 연구들은 주유소의 판매감소 요인이 전기차 수요 증가와 원유가격 상승인 반면 소매업체들은 빠른 배송이 경쟁력으로 둔화되고 있음을 발견하였다. <br>
+<br>
+첫째, 서울시 지역별 공시지가, 배송효율성, 생산가능인구 등 물류센터 수요에 영향을 미칠 수 있는 변수를 선정하여 군집화를 실시하였으며, 수요자의 관점에서 4개의 군집을 해석하였다. 해석된 군집은 도시물류센터가 필요한 지역의 우선순위를 결정하기 위해 합의하였다. 물류센터가 가장 필요한 지역은 동대문구, 양천구, 동작구, 송파구, 구로구, 서대문구, 영등포구 등으로 나타났다. <br>
+둘째, 개별공시지가, 면적, 물류허브로부터의 거리, 인구, 학교 수, 상권규모 등을 변수로 선정하고 종속변수의 입지점수는 Analytical Hierarchy Process(AHP)을 이용하여 변수의 중요도를 계산하여 산출하였다. 입지적합성은 입지점수를 세분화하여 매우 적합, 적합, 부적합, 매우 부적합으로 범주화하였으며, ML기반 분류기법과 DNN을 통한 분석 결과 MFC 입지에 가장 적합한 주유소의 분류가 가능한 모델을 설계하였다.
+
 
 ![MFC_PPT_page-0001](https://github.com/SS-yong/MFC-Optimal-Location-Selection-for-Logistic-Centers/assets/108441950/10752db9-22c1-41e6-b053-e27689577fee)
 ![MFC_PPT_page-0002](https://github.com/SS-yong/MFC-Optimal-Location-Selection-for-Logistic-Centers/assets/108441950/4253b06f-04da-4e11-be88-fb6fdb6545e4)
