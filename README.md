@@ -1,8 +1,9 @@
 # MFC Optimal Location Selection for Logistic Centers
 - Title :도심형 소형 물류센터(MFC)의 최적 입지 선정
 - Period : 2022.09 ~ 2022.12
-- Technologies : Python, Orange3, QGIS, Excel
-- Framework : Tensorflow, Keras, Pytorch, Matplotlib
+- Language : Python
+- Technologies : Jupyter notebook, Jupyter lab, Orange3, QGIS, Excel
+- Framework : Tensorflow, Keras, Pytorch, Matplotlib, folium, pycaret(AutoML)
 - Key Method : Consensus Clustering, AHP Method
 
 ![MFC_PPT_page-0001](https://github.com/SS-yong/MFC-Optimal-Location-Selection-for-Logistic-Centers/assets/108441950/10752db9-22c1-41e6-b053-e27689577fee)
